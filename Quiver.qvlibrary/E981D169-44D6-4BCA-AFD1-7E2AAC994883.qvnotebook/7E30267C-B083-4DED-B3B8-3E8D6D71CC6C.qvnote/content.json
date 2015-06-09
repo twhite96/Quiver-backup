@@ -1,0 +1,59 @@
+{
+  "title": "Properties",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "padding"
+    },
+    {
+      "type": "text",
+      "data": "Creates space between the content and the border"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "margin"
+    },
+    {
+      "type": "text",
+      "data": "Creates space for multiple HTML elements. The margin is a transparetn area outside the border of an element."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "position"
+    },
+    {
+      "type": "text",
+      "data": "Used to move and HTML element to a precise postion on the page"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "position: relative...top, left, bottom, right"
+    },
+    {
+      "type": "text",
+      "data": "<div>Using this you can use the top, left, bottom, and right properties to shift an element away from whereit would have normally appeared on the page.</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "float"
+    },
+    {
+      "type": "text",
+      "data": "Moves an element to the far left or right of a page&nbsp;"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "clear"
+    },
+    {
+      "type": "text",
+      "data": "<div>Turns off floor</div>"
+    }
+  ]
+}

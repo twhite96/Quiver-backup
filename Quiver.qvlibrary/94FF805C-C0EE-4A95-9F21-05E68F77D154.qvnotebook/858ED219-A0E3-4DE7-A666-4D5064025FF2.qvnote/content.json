@@ -1,0 +1,10 @@
+{
+  "title": "Minimal Web footer html",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div id=\"container\">\n  <footer>\n    <div>\n      <img src=\"http://minimalwebdesigns412.com/Images/Oval2_Group@2x.png\" alt=\"Responsive\">\n      <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure\n        dolor in reprehenderit in voluptate velit esse cillum dolore.</section>\n    </div>\n    <div>\n      <img src=\"http://minimalwebdesigns412.com/Images/Oval1_Group@2x.png\" alt=\"Cloud\">\n      <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure\n        dolor in reprehenderit in voluptate velit esse cillum dolore.</section>\n    </div>\n    <div>\n      <img src=\"http://minimalwebdesigns412.com/Images/Oval3_Shape@2x.png\" alt=\"Email\">\n      <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure\n        dolor in reprehenderit in voluptate velit esse cillum dolore.</section>\n    </div>\n    <br style=\"clear:both\">\n  </footer>\n</div>"
+    }
+  ]
+}

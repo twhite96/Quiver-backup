@@ -1,0 +1,14 @@
+{
+  "title": "Python the Hard Way ex9",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "# Here's some new strange stuff, remember type it exactly\n\ndays = \"Mon Tue Wed Thu Fri Sat Sun\"\nmonths = \"Jan/nFeb/nMar/nApr/nMay/nJun/nJul/nAug\"\n\nprint \"Here are the days: \", days\nprint \"Here are the months: \", months\n\nprint \"\"\"\nThere's something going on here.\nWith the three double-quotes.\nWe'll be able to type as much as we like.\nEven 4 lines if we want, or 5, or 6.\n\"\"\""
+    },
+    {
+      "type": "text",
+      "data": "<div>Used forward (/) slash instead of backward slash (\\) for new line code on line 4:&nbsp;\"<span style=\"background-color: rgb(254, 250, 0);\">Jan/nFeb/nMar/nApr/nMay/nJun/nJul/nAug</span>”</div><div><span style=\"background-color: rgb(254, 250, 0);\"><br></span></div><div>Should read “<span style=\"background-color: rgb(254, 250, 0);\">Jan\\nFeb\\nMar\\nApr\\nMay\\nJun\\nJul\\nAug</span>\"</div>"
+    }
+  ]
+}

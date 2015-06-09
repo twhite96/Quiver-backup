@@ -1,0 +1,15 @@
+{
+  "title": "Dropdown Nav Semantic HTML",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div class=\"ui compact menu\">\n    <div class=\"ui simple dropdown item\">\n      <i class=\"dropdown icon\"></i>\n      See More\n      <div class=\"menu\">\n        <ul class=\"sub-menu\">\n                   <li><a href=\"#\">\"index.html\">Home</a></li>\n                    <li><a href=\"#\">\"FirstPage.htm\"</a></li>\n                    <li><a href=\"#\">\"About.html\">About</a></li>\n                    <li><a href=\"#\">http://blog.minimalwebdesigns412.com\">Blog</a></li>\n                    <li><a href \"Contact.html\">Contact</a></li> \n                </ul>\n      </div>\n    </div>\n  </div>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": " <ul class=\"sub-menu\">\n                    <li><a href=\"#\">\"index.html\">Home</a></li>\n                    <li><a href=\"#\">\"FirstPage.htm\"</a></li>\n                    <li><a href=\"#\">\"About.html\">About</a></li>\n                    <li><a href=\"#\">http://blog.minimalwebdesigns412.com\">Blog</a></li>\n                    <li><a href \"Contact.html\">Contact</a></li>\n                </ul>"
+    }
+  ]
+}

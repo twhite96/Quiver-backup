@@ -1,0 +1,10 @@
+{
+  "title": "Minimal Web First Page",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<!DOCTYPE html>\n<html>\n <head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n   <link rel=\"stylesheet\" href=\"css/stylesheet.css\" title=\"NavBar\" type=\"text/css\" media=\"screen\"> \n   <title>I'm a Designer</title>\n   <style>\n\t   nav {\n\tbackground-color: rgba(255, 250, 208, 0.0);\n\theight: 50px;\n}\nnav ul {\n\theight: 50px;\n\twidth: 825px;\n\tmargin: 0 auto;\n}\nnav ul li {\n\tlist-style-type: none;\n\tfloat: left;\n\twidth: 150px;\n\ttext-align: center;\n\ttext-decoration: underline;\n}\nnav li a {\n\ttext-decoration: none;\n\tcolor: black;\n\tline-height: 50px;\n\tdisplay: block;\n\tfont-family: Georgia;\n}\nnav li a:hover {\n\tbackground-color: #6FE0D2;\n\tcolor: white;\n </style>\n </head>\n<h1>Who am I?</h1>\n <nav>\n   <ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><a href=\"FirstPage.htm\">Bio</a></li>\n    <li><a href=\"About.html\">About</a></li>\n    <li><a href=\"http://blog.minimalwebdesigns412.com\">Blog</a></li>\n    <li><a href=\"Contact.html\">Contact</a></li>\n   </ul>\n  </nav>  <img src=\"http://minimalwebdesigns412.com/Images/selfie.png\" alt=\"selfie\" width=\"150\" height=\"150\">\n<p>My name is Tiffany White and I&#8217;m a new dev and freelance web designer. Mac, iPhone, & iPad are my weapons of choice. Moonlighting as a writer and iPhotographer. Am all about Pittsburgh. I love ice cream more than life itself.</p>\n</html>"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Ruby the Hard Way ex 4 notes",
+  "cells": [
+    {
+      "type": "code",
+      "language": "ruby",
+      "data": "puts \"There are #{cars} cars available\""
+    },
+    {
+      "type": "text",
+      "data": "<div>This is similar to python’s formatter, or format variable that looks like this:</div>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "print \"There are %r cars\" % cars available"
+    }
+  ]
+}

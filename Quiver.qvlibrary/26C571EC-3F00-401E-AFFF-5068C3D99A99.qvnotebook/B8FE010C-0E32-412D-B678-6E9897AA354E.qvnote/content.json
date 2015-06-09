@@ -1,0 +1,14 @@
+{
+  "title": "Zed’s Python the Hard Way ex.8",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n# forgot to add quotes around the format variables\nformatter = %r %r %r %r\n\nprint formatter % (1, 2, 3, 4)\nprint formatter % (\"one\", \"two\", \"three\", \"four\")\nprint formatter % (formatter, formatter, formatter, formatter)\nprint formatter % (\n  \n  # I forgot to add the comma after this first line which gave a TraceBack error of not enough arguments in the string\n\t\"I had this thing.\"\n\t\"That you could type up right.\",\n\t\"But it didn't sing.\",\n\t\"So I said goodnight\"\n)"
+    },
+    {
+      "type": "text",
+      "data": "The reason python returned the formatted string “But it didn’t sing.” in double quotes and not in single like the others is because of the apostrophe or single quote in the middle of the string"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Python the Hard Way ex.15 Study Drills",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "# Grabs the sys module and the argv variable inside that module\nfrom sys import argv\n\n# sets the argument variables to script and filemane\nscript, filename = argv\n\n# when we type the script into the terminal, you have to type in the filename as well that you want to open. This filename must be an arguement variable when you run the python script. txt indicates that it is a txt file. Open(filenmae) calls the argument variable that we specified was ex15_sample.txt and opens it, taking a parameter and returning a value you can set as your own value, much like raw_input\ntxt = open(filename)\n\n# this line prints out text and opens an formatter which is the argument variable filename.\nprint \"Here's your file %r:\" % filename\n\n# here we call a function on the text file which is read(). To give a file a command you use the dot and and function so txt.read() opens the file without getting any parameters.\nprint txt.read()\n\n# this line prints this line of text in the script in terminal\nprint \"Type the filename again:\"\n\n# this is another prompt with raw_input and the carot assigned to the variable file_again. You must type in the name of the text file again or python will throw an error\nfile_again = raw_input(\"> \")\n\n# this line uses the open command to open the txt file again\ntxt_again = open(file_again)\n\n# this line uses the function read() which is part of the command you're giving the file txt_again.read(). It will then read and print the contents of the file.\nprint txt_again.read()"
+    }
+  ]
+}

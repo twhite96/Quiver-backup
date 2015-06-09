@@ -1,0 +1,27 @@
+{
+  "title": "Python the Hard Way ex.13 Run errors",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "python ex13.py\nTraceback (most recent call last):\n  File \"ex13.py\", line 3, in <module>\n    script, first, second, third = argv\nValueError: need more than 1 value to unpack\nTiffanys-MacBook-Pro:Zed_Shaw_Python tiffanywhite$ python ex13.py first 2nd 3rd\nThe script is called: ex13.py\nYour first variable is: first\nYour second variable is: 2nd\nYour third variable is: 3rd"
+    },
+    {
+      "type": "text",
+      "data": "<div>The first error (ValueError) was because I did not specify the same number of arguments in line 1 that I did in line 3</div>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "python ex13.py first\nTraceback (most recent call last):\n  File \"ex13.py\", line 3, in <module>\n    script, first, second, thrid = argv\nValueError: need more than 2 values to unpack\nTiffanys-MacBook-Pro:Zed_Shaw_Python tiffanywhite$ python ex13.py first 2nd\nTraceback (most recent call last):\n  File \"ex13.py\", line 3, in <module>\n    script, first, second, thrid = argv\nValueError: need more than 3 values to unpack"
+    },
+    {
+      "type": "text",
+      "data": "<div>The ValueErrors here present the same problems— I have four arguments but am only calling on one and two…This explanation makes it clearer:</div>"
+    },
+    {
+      "type": "markdown",
+      "data": "So the 3 values it’s referring to are \"ex13.py\", \"first\", \"2nd\"\n\njonoyeong [8:29 PM]\nto successfully “unpack” (not entirely sure what that means),  it can only do it if you have all 4 values.\n\njonoyeong [8:30 PM]\nie you need more than just 3 values to unpack.\n\njonoyeong [8:30 PM]\nI’m assuming unpacking is just this line `script, first, second, thrid = argv`\n\njonoyeong [8:32 PM]\nDoes that make it any clearer?"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Minimal Web Contact Page",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<!DOCTYPE html>\n<html>\n <head>\n <meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\" />\n <style>\n\t @font-face{\n    font-family: 'ElegantLux-Mager';\n    src: url('./ElegantLux-Mager.woff') format('woff');\n}\n\n* {\n\tpadding: 0px;\n\tmargin:0px;   \n}\n\nbody {\n    font-family: 'ElegantLux-Mager';\n    font-size: large;\n    background-color: rgba(255, 250, 208, 0.3);\n}\n\n\t p a.{\n\t\t padding-top: 5%;\n\t\t padding-bottom: 5%:\n\t }\n\t nav {\n\tbackground-color: rgba(255, 250, 208, 0.0);\n\theight: 50px;\n}\nnav ul {\n\theight: 50px;\n\twidth: 825px;\n\tmargin: 0 auto;\n}\nnav ul li {\n\tlist-style-type: none;\n\tfloat: left;\n\twidth: 150px;\n\ttext-align: center;\n\ttext-decoration: underline;\n}\nnav li a {\n\ttext-decoration: none;\n\tcolor: black;\n\tline-height: 50px;\n\tdisplay: block;\n\tfont-family: Georgia;\n}\nnav li a:hover {\n\tbackground-color: #6FE0D2;\n\tcolor: white;\n}\nul li a.{\n\t\n}\n</style>\t \n <title>Contact</title>\n</head> \n <nav>\n   <ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><a href=\"FirstPage.htm\">Bio</a></li>\n    <li><a href=\"About.html\">About</a></li>\n    <li><a href=\"http://blog.minimalwebdesigns412.com\">Blog</a></li>\n    <li><a href=\"Contact.html\">Contact</a></li>\n   </ul>\n  </nav>  \n <p>You can contact me in many ways! I'm always &#34;on&#34; as the saying goes so any of the following channels will do:</p>\n <ul>\n  <li><a href=\"skype:twhite412?chat\">Skype</a></li>\n  <li><a href=\"mailto:tiffany@minimalwebdesigns412.com?Subject=Inquiry\" target=\"_top\">\n  Email</a></li>\n  <li><div itemscope itemtype=\"http://schema.org/LocalBusiness\">\n  <span itemprop=\"telephone\"><a href=\"tel:+14122546235\">Phone</a></span></div></li>\n </ul>\n <p>Get a quote from me whenever you need it.</p> \n</html> "
+    }
+  ]
+}

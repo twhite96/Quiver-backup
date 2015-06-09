@@ -1,0 +1,45 @@
+{
+  "title": "Grouping and Selecting",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">You can give the same properties to a number of selectors without having to repeat them.</p><p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">For example, if you have something like:</p>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "h2 {\n    color: red;\n}\n\n.thisOtherClass {\n    color: red;\n}\n\n.yetAnotherClass {\n    color: red;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">You can simply separate selectors with&nbsp;</span><span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal;\">commas</span><span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">&nbsp;in one line and apply the same properties to them all so, making the above:</span>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "h2, .thisOtherClass, .yetAnotherClass {\n    color: red;\n}"
+    },
+    {
+      "type": "text",
+      "data": "Nesting\n\nIf the CSS is structured well, there shouldn’t be a need to use many class or ID selectors. This is because you can specify properties to selectors within other selectors.\n\nFor example:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n#top {\n    background-color: #ccc;\n    padding: 1em\n}\n\n#top h1 {\n    color: #ff0;\n}\n\n#top p {\n    color: red;\n    font-weight: bold;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">This removes the need for classes or IDs on the&nbsp;</span><a href=\"http://www.htmldog.com/reference/htmltags/p/\" class=\"acode\" style=\"margin: 0px; padding: 0px; list-style: none; float: none; outline: 0px; border-style: none none dotted; border-bottom-width: 1px; border-bottom-color: rgb(255, 153, 153); text-decoration: none; color: rgb(0, 102, 204); -webkit-transition: 0.2s; transition: 0.2s; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">p</code></a><span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">&nbsp;and&nbsp;</span><a href=\"http://www.htmldog.com/reference/htmltags/h1h2h3h4h5h6/\" class=\"acode\" style=\"margin: 0px; padding: 0px; list-style: none; float: none; outline: 0px; border-style: none none dotted; border-bottom-width: 1px; border-bottom-color: rgb(255, 153, 153); text-decoration: none; color: rgb(0, 102, 204); -webkit-transition: 0.2s; transition: 0.2s; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">h1</code></a><span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">&nbsp;tags if it is applied to HTML that looks something like this:</span>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div id=\"top\">\n    <h1>Chocolate curry</h1>\n    <p>This is my recipe for making curry purely with chocolate</p>\n    <p>Mmm mm mmmmm</p>\n</div>"
+    },
+    {
+      "type": "text",
+      "data": "<p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">This is because, by separating selectors with spaces, we are saying “<a href=\"http://www.htmldog.com/reference/htmltags/h1h2h3h4h5h6/\" class=\"acode\" style=\"margin: 0px; padding: 0px; list-style: none; float: none; outline: 0px; border-style: none none dotted; border-bottom-width: 1px; border-bottom-color: rgb(255, 153, 153); text-decoration: none; color: rgb(0, 102, 204); -webkit-transition: 0.2s; transition: 0.2s;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">h1</code></a>&nbsp;inside ID&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">top</code>&nbsp;is colour&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">#ff0</code>” and “<a href=\"http://www.htmldog.com/reference/htmltags/p/\" class=\"acode\" style=\"margin: 0px; padding: 0px; list-style: none; float: none; outline: 0px; border-style: none none dotted; border-bottom-width: 1px; border-bottom-color: rgb(255, 153, 153); text-decoration: none; color: rgb(0, 102, 204); -webkit-transition: 0.2s; transition: 0.2s;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">p</code></a>&nbsp;inside ID&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">top</code>&nbsp;is&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">red</code>&nbsp;and&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">bold</code>”.</p><p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">This can get quite complicated (because it can go for more than two levels, such as this inside this inside this inside this etc.) and may take a bit of practice.</p>"
+    }
+  ]
+}

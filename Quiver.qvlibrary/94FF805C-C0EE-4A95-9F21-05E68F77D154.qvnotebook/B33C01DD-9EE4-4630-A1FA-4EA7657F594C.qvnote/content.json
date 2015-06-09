@@ -1,0 +1,10 @@
+{
+  "title": "Minimal Web Old Nav",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><a href=\"FirstPage.htm\">Bio</a></li>\n    <li><a href=\"About.html\">About</a></li>\n    <li><a href=\"http://blog.minimalwebdesigns412.com\">Blog</a></li>\n    <li><a href=\"Contact.html\">Contact</a></li>\n   </ul> "
+    }
+  ]
+}

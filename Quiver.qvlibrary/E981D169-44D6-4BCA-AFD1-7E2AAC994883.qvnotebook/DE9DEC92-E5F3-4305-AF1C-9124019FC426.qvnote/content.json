@@ -1,0 +1,36 @@
+{
+  "title": "Margins and Padding",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Margins and Padding\n\nmargin and padding allow you to amalgamate margin-top-width, margin-right-width, margin-bottom-width etc. in the form of property: top right bottom left;\n\nSo:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "p {\n    margin-top: 1px;\n    margin-right: 5px;\n    margin-bottom: 10px;\n    margin-left: 20px;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<div>Can be summed up as:</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "p {\n    margin: 1px 5px 10px 20px;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<div><p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">By stating just two values (such as&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">padding: 1em 10em;</code>), the first value will be the&nbsp;<span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold;\">top and bottom</span>and the second value will be the&nbsp;<span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold;\">right and left</span>.</p></div>"
+    },
+    {
+      "type": "text",
+      "data": "Borders\n\nborder-width can be used in exactly the same way as margin and padding. You can also combine border-width, border-color, and border-style with the border property. So:"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "p {\n    border: 1px red solid;\n}"
+    }
+  ]
+}

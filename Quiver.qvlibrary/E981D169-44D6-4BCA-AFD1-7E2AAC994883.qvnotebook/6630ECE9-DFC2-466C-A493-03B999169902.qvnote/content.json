@@ -1,0 +1,53 @@
+{
+  "title": "Pseudo Classes",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><b>Links</b></div><div><br></div><div>link, targeting unvisited links, and visited, targeting, you guessed it, visited links, are the most basic pseudo classes.</div><div><br></div><div>The following will apply colors to all links in a page depending on whether the user has visited that page before or not:</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "a:link {\n    color: blue;\n}\n\na:visited {\n    color: purple;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<h2 style=\"margin: 40px 20px 15px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; font-weight: normal; font-size: 24px; line-height: 1.2; font-family: 'Bree Serif', Georgia, serif; clear: left; color: rgb(136, 187, 34); white-space: normal; background-color: rgb(255, 255, 255);\">Dynamic Pseudo Classes</h2><p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">Also commonly used for links, the dynamic pseudo classes can be used to apply styles when something happens to something.</p><ul style=\"margin: 15px 20px 15px 0px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\"><li style=\"margin: 0px; padding: 0px 0px 0px 20px; list-style: none; float: none; outline: 0px; border: none; background-image: url(http://www.htmldog.com/r10/bullet_ccc.gif); background-position: 0px 9px; background-repeat: no-repeat no-repeat;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">active</code>&nbsp;is for when something activated by the user, such as when a link is clicked on.</li><li style=\"margin: 0px; padding: 0px 0px 0px 20px; list-style: none; float: none; outline: 0px; border: none; background-image: url(http://www.htmldog.com/r10/bullet_ccc.gif); background-position: 0px 9px; background-repeat: no-repeat no-repeat;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">hover</code>&nbsp;is for a when something is passed over by an input from the user, such as when a cursor moves over a link.</li><li style=\"margin: 0px; padding: 0px 0px 0px 20px; list-style: none; float: none; outline: 0px; border: none; background-image: url(http://www.htmldog.com/r10/bullet_ccc.gif); background-position: 0px 9px; background-repeat: no-repeat no-repeat;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">focus</code>&nbsp;is for when something gains focus, that is when it is selected by, or is ready for, keyboard input</li><li style=\"margin: 0px; padding: 0px 0px 0px 20px; list-style: none; float: none; outline: 0px; border: none; background-image: url(http://www.htmldog.com/r10/bullet_ccc.gif); background-position: 0px 9px; background-repeat: no-repeat no-repeat;\"><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0); font-size: 14px;\">focus</code><span style=\"color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);\">&nbsp;is most often used on&nbsp;</span><span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold; color: rgb(85, 85, 85);\">form elements</span><span style=\"color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);\">&nbsp;but can be used for&nbsp;</span><span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold; color: rgb(85, 85, 85);\">links</span><span style=\"color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);\">. Although most users will navigate around and between pages using a pointing device such as a mouse those who choose note to, or are unable to do so, such as those with motor disabilities, may navigate using a keyboard or similar device. Links can be jumped between using a tab key and they will gain focus one at a time.</span><br></li></ul>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "a:active {\n    color: red;\n}\n\na:hover {\n    text-decoration: none;\n    color: blue;\n    background-color: yellow;\n}\n\ninput:focus, textarea:focus {\n    background: #eee;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0); font-size: 14px; line-height: 21px; white-space: normal;\">focus</code><span style=\"color: rgb(85, 85, 85); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(238, 238, 238);\">&nbsp;isn’t supported by some of the older browsers so be careful not to use it for anything vital.</span>"
+    },
+    {
+      "type": "text",
+      "data": "<h2 style=\"margin: 40px 20px 15px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; font-weight: normal; font-size: 24px; line-height: 1.2; font-family: 'Bree Serif', Georgia, serif; clear: left; color: rgb(136, 187, 34); white-space: normal; background-color: rgb(255, 255, 255);\">First Children</h2><p style=\"margin: 15px 20px; padding: 0px; list-style: none; float: none; outline: 0px; border: none; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">Finally (for this article, at least), there is the&nbsp;<code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0);\">first-child</code>&nbsp;pseudo class. This will target something only if it is the very first descendant of an element. So, in the following HTML…</p>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<body>\n    <p>I’m the body’s first paragraph child. I rule. Obey me.</p>\n    <p>I resent you.</p>\n..."
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">…if you only want to style the&nbsp;</span><span style=\"margin: 0px; padding: 0px; list-style: none; outline: 0px; border: none; font-weight: bold; color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal;\">first</span><span style=\"color: rgb(0, 0, 0); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(255, 255, 255);\">&nbsp;paragraph, you could use the following CSS:</span>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "p:first-child {\n    font-weight: bold;\n    font-size: 40px;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(85, 85, 85); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(238, 238, 238);\">CSS3 has also delivered a whole new set of pseudo classes:&nbsp;</span><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0); font-size: 14px; line-height: 21px; white-space: normal;\">last-child</code><span style=\"color: rgb(85, 85, 85); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(238, 238, 238);\">,&nbsp;</span><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0); font-size: 14px; line-height: 21px; white-space: normal;\">target</code><span style=\"color: rgb(85, 85, 85); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(238, 238, 238);\">,&nbsp;</span><code style=\"padding-top: 0px; padding-bottom: 0px; list-style: none; float: none; outline: 0px; border: none; font-family: Consolas, Monaco, 'Andale Mono', 'Lucida Console', monospace; color: rgb(204, 0, 0); font-size: 14px; line-height: 21px; white-space: normal;\">first-of-type</code><span style=\"color: rgb(85, 85, 85); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; white-space: normal; background-color: rgb(238, 238, 238);\">, and more.</span>"
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

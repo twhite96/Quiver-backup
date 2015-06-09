@@ -1,0 +1,9 @@
+{
+  "title": "Python the Hard Way ex.16  Notes",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>close -- Closes the file. Like File-&gt;Save.. in your editor.</div><div>read -- Reads the contents of the file. You can assign the result to a variable.</div><div>readline -- Reads just one line of a text file.</div><div>truncate -- Empties the file. Watch out if you care about the file.</div><div>write('stuff') -- Writes \"stuff\" to the file.</div><div><br></div><div>parameter— argument variable, file, raw_input, all of these are examples of parameters</div>"
+    }
+  ]
+}

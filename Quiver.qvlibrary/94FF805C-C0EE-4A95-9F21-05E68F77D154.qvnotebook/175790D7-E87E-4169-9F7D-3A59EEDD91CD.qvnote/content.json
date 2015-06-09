@@ -1,0 +1,10 @@
+{
+  "title": "Dropdown Nav HTML",
+  "cells": [
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>HTML5, CSS3 and jQuery Navigation menu</title>\n        <link rel=\"stylesheet\" href=\"css/nav.css\">\n        <!--[if IE]>\n            <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n        <![endif]-->\n    </head>\n    <body class=\"no-js\">\n        <nav id=\"topNav\">\n                <ul>\n                    <li><a href=\"#\" title=\"Nav Link 1\">Nav Link 1</a></li>\n                <li>\n                    <a href=\"#\" title=\"Nav Link 1\">Nav Link 2</a>\n                    <ul>  \n                        <li><a href=\"#\" title=\"Sub Nav Link 1\">Sub Nav Link 1</a></li>\n                        <li><a href=\"#\" title=\"Sub Nav Link 2\">Sub Nav Link 2</a></li>\n                        <li><a href=\"#\" title=\"Sub Nav Link 3\">Sub Nav Link 3</a></li>\n                        <li><a href=\"#\" title=\"Sub Nav Link 4\">Sub Nav Link 4</a></li>\n                        <li class=\"last\"><a href=\"#\" title=\"Sub Nav Link 5\">Sub Nav Link 5</a></li>\n                    </ul>                \n                </li>\n                <li><a href=\"#\" title=\"Nav Link 1\">Nav Link 3</a></li>\n                <li><a href=\"#\" title=\"Nav Link 1\">Nav Link 4</a></li>\n                <li><a href=\"#\" title=\"Nav Link 1\">Nav Link 5</a></li>\n            </ul>\n        </nav>\n        <script src=\"js/jquery.js\"></script>\n        <script src=\"js/modernizr.js\"></script>\n    </body>\n</html>"
+    }
+  ]
+}

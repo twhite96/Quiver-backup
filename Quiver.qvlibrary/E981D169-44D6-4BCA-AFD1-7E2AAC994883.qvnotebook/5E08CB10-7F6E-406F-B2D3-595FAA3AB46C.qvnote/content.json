@@ -1,0 +1,41 @@
+{
+  "title": "Minimal Web Asset Extraction",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>Minimal Web Text Box</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "/* Minimal Web Designs : */\nfont-family: ElegantLux-Mager;\nfont-size: 144px;\ncolor: #FFFFFF;\nline-height: 168px;\n\n\n/* Rectangle 4: */\nbackground: #FFFFFF;\nborder: 1px solid #FFFFFF;"
+    },
+    {
+      "type": "text",
+      "data": "Minimal Web Header"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "/* More: */\nfont-family: ElegantLux-Mager;\nfont-size: 144px;\ncolor: #FFFFFF;\nline-height: 76px;\n\n\n/* Rectangle 3: */\nbackground: rgba(9,9,9,0.39);\nborder: 7px solid #FFFFFF;\n\n\n/* Minimal Web Designs : */\nfont-family: ElegantLux-Mager;\nfont-size: 144px;\ncolor: #FFFFFF;\nline-height: 168px;\n\n\n/* Rectangle 4: */\nbackground: #FFFFFF;\nborder: 1px solid #FFFFFF;\n\n\n/* pittsburgh_bricks: */\n;"
+    },
+    {
+      "type": "text",
+      "data": "Middle Rectangle"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "/* Rectangle 4: */\nbackground: #FFFFFF;\nborder: 1px solid #FFFFFF;\n\n\n/* <p>I have given no s: */\nfont-family: Helvetica-Light;\nfont-size: 36px;\ncolor: #000000;\nline-height: 43px;\n\n\n/* selfie: */"
+    },
+    {
+      "type": "text",
+      "data": "Footer"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "/* Rectangle 1: */\nbackground: rgba(113,15,154,0.73);\nborder: 1px solid rgba(255,255,255,0.00);\n\n\n"
+    }
+  ]
+}

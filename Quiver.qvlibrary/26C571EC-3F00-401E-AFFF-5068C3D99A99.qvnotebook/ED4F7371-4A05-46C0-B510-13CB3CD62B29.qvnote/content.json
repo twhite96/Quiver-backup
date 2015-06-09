@@ -1,0 +1,14 @@
+{
+  "title": "Python the Hard Way ex.14 Study Drills",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "prompt = '>'\n\nprint \"Hi, %s, I'm the %s script.\" % (user_name, script)\nprint \"I'd like to ask you a few questions.\"\nprint \"Do you like me %s?\" % user_name\nlikes = raw_input(prompt)\n\nprint \"Where do you live %s?\" % user_name\nlives = raw_input(prompt)\n\nprint \"What kind of computer do you have?\"\ncomputer = raw_input(prompt)\n\nprint \"\"\"\nAlright, so you said %r about liking me.\nYou live in %r. Not sure where that is.\nAnd you have %r computer. Nice.\n\"\"\" % (likes, lives, computer) "
+    },
+    {
+      "type": "text",
+      "data": "<div>Make sure you understand how I combined a \"\"\" style multiline string with the % format activator as the last print.<br></div><div><br></div><div>So the variables “likes, lives, and computer” all depend on the raw_input(prompt) which when it gets down to that line of code in the script, on line 5 it asks a question which on line 6 follows the prompt. So it goes “Do you like me, user_name?” We have established that the next printed line to be a prompt with raw input. The prompt variable is &gt; so when you run likes = raw_input(prompt) it will display the &gt; and require user input, as defined by raw_input. This occurs for all of the subsequent variables mentioned.</div><div><br></div><div>At the end of script with the multiline string, the script references all of the variables mentioned— likes, lives, and computer, which we have prompted the user to give input to. Because these are variables, the variables store the prompt info and spit it back out in terminal as we used the format activator for the variables we referenced. See:</div><div><br></div><div>print “””</div><div>Alright, so you said %r about liking me..</div><div>You live in %r. Not sure where that is.</div><div>And you have %r computer. Nice</div><div>“”” % (likes, lives, computer)</div>"
+    }
+  ]
+}

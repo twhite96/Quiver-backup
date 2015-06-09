@@ -1,0 +1,10 @@
+{
+  "title": "Minimal Web footer css",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "#container {\n  border: 2px solid #ff0000;\n  width: 800px;\n}\nfooter {\n  width: 100%;\n}\nfooter div {\n  width: 33.3333333%;\n  background: rgba(113, 15, 154, 0.73);\n  float: left;\n  vertical-align: top;\n  overflow-x: none;\n  text-align: center;\n}\nfooter div section {\n  max-width: 100%;\n  padding: 0;\n  text-align: inherit;\n}\nfooter div img {\n  width: 60%;\n}"
+    }
+  ]
+}
