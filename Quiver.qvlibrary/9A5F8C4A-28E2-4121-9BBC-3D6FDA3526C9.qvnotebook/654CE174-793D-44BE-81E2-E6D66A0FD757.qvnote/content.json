@@ -1,0 +1,10 @@
+{
+  "title": "Rock, Paper, Scissors game",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var userChoice = prompt(\"Do you choose rock, paper or scissors?\");\nvar computerChoice = Math.random();\nif (computerChoice < 0.34) {\n\tcomputerChoice = \"rock\";\n} else if(computerChoice <= 0.67) {\n\tcomputerChoice = \"paper\";\n} else {\n\tcomputerChoice = \"scissors\";\n} console.log(\"Computer: \" + computerChoice);\n\nvar compare = function(choice1, choice2) {\n    if (choice1 === choice2) {\n        return \"The result is a tie!\";\n    }\n    else if (choice1 === \"rock\") {\n        if (choice2 === \"scissors\") {\n        return \"rock wins\";\n    } else {\n        return \"paper wins\";\n    }\n    }\n    else if (choice1 === \"paper\") {\n        if (choice2 === \"rock\") {\n        return \"paper wins\";\n    } else {\n        return \"scissors wins\";\n    }\n    }\n};\ncompare(userChoice, computerChoice);"
+    }
+  ]
+}

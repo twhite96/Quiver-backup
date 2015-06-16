@@ -1,0 +1,10 @@
+{
+  "title": "First little script",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var myName = \"Tiffany\";\nif (myName == \"Tiffany\") \n{\n    console.log(\"I finished my first course!\")\n}\n\nelse \n{\n    console.log(\"Then sit the fuck down!\")\n}"
+    }
+  ]
+}

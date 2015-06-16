@@ -1,0 +1,10 @@
+{
+  "title": "Codecademy Bieber Game",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// Check if the user is ready to play!\nconfirm(\"I confirm. Let's go!\");\nvar age = prompt(\"What's your age?\");\nif (age < 13)\n{\n    console.log(\"Alright. You can play but you will not hold me responsible. Okay?\");\n} \n\nelse {\n    console.log(\"Great. Let's play!\");\n}\nconsole.log(\"You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'\");\nconsole.log(\"Suddenly, Bieber stops and says, 'Who wants to race me?'\");\nvar userAnswer = prompt(\"Do you want to race Bieber on stage?\");\nif (userAnswer === \"yes\")\n{\n    console.log(\"You and Bieber start racing. It's neck and neck! You win by a shoelace!\")\n}\nelse \n{\n    console.log(\"Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'\");\n}\nvar feedback = prompt(\"How would you rate the game? Choose 1 through 10\");\nif (feedback > 8)\n{\n    console.log(\"Thank you! We should race at the next concert!\")\n}\nelse\n{\n    console.log(\"I'll keep practicing coding and racing.\");\n}"
+    }
+  ]
+}
